@@ -1,0 +1,22 @@
+.page-color {
+	background-color: #01617a;
+}
+
+.height-50 {
+	line-height: 35px;
+}
+
+.logo {
+	width: 30px;
+	height: 40px;
+	margin: 5px;
+}
+.white {
+	color: white;
+}
+
+.nav > a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ccccff;
+}

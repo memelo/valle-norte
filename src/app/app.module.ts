@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomeComponent },
@@ -32,7 +33,8 @@ const appRoutes: Routes = [
 	    HomeComponent,
 	    LoginComponent,
 	    ContactComponent,
-	    GalleryComponent
+	    GalleryComponent,
+	    NavbarComponent
   	],
   	providers: [],
   	bootstrap: [AppComponent]
